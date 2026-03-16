@@ -1,37 +1,13 @@
 {
-<<<<<<< HEAD
-  "name": "instagramcl_backend",
-=======
   "name": "instagram_backend",
->>>>>>> 04a5ca0d620e4a96b11385c072819246b3264813
   "version": "1.0.0",
-  "description": "",
+  "description": "Instagram clone backend",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-<<<<<<< HEAD
-    "url": "git+https://github.com/SaiKarthigayanV/instagramcl_backend.git"
+    "start": "json-server db.json --port 10000 --host 0.0.0.0"
   },
   "author": "sai",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SaiKarthigayanV/instagramcl_backend/issues"
-  },
-  "homepage": "https://github.com/SaiKarthigayanV/instagramcl_backend#readme",
-=======
-    "url": "git+https://github.com/SaiKarthigayanV/Instagram_backend.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SaiKarthigayanV/Instagram_backend/issues"
-  },
-  "homepage": "https://github.com/SaiKarthigayanV/Instagram_backend#readme",
->>>>>>> 04a5ca0d620e4a96b11385c072819246b3264813
   "dependencies": {
     "json-server": "^1.0.0-beta.13"
   }
